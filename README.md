@@ -3,7 +3,7 @@ Preparation
 
 Before you start using the code in this repo, make sure that you've done the following steps.
 
-1. Cut off the original PIR sensor connector and replace with something that fits the RPi GPIO pins.<br>![Replace original connector](https://raw.github.com/kr15h/RPi_PIR_SparkFun/master/connector.jpg)
+1. Cut off the original PIR sensor connector and replace with something that fits the RPi GPIO pins.<br><br>![Replace original connector](https://raw.github.com/kr15h/RPi_PIR_SparkFun/master/connector.jpg)
 
 2. We need the PIR sensor to work in 3.3V mode, not 5 - 12V as it is originally intended. To do that, we need to solder a jumper wire that bypasses the voltage regulator.
 
