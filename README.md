@@ -54,4 +54,9 @@ cd RPi_PIR_SparkFun
 gcc -o pirapp -I/usr/local/include -L/usr/local/lib -lwiringPi main.cpp
 ```
 
-That's it! Hope that this helps somebody.
+6. Launch it. Don't forget the sudo as the wiringPi library needs these super-user permisions to do things with the GPIO.<br>
+```
+sudo ./pirapp
+```
+
+That's it! Hope that this will help somebody.
