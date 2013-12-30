@@ -3,7 +3,7 @@ Description
 
 This code example and tutorial is made for the SparkFun PIR sensor available from the original [SparkFun](https://www.sparkfun.com/products/8630) site and also from the [Mänsteri](http://store.mansteri.com/index.php/en/pir-motion-sensor.html?___from_store=fi) store in Finland. I made it because I could not find enough clear examples on how to do this. 
 
-Basically I needed this to work witin an openFrameworks application, but made a pure C++ version just because it's so much less code. To use this within an [openFrameworks](http://www.openframeworks.cc) application, copy the #include statements, copy the code before the while from the main() function to the setup() method of your app and everything that is inside the while(){} loop to the update() or draw() method.
+Basically I needed this to work within an openFrameworks application, but made a pure C++ version just because it's so much less code. To use this within an [openFrameworks](http://www.openframeworks.cc) application, copy the #include statements, copy the code before the while from the main() function to the setup() method of your app and everything that is inside the while(){} loop to the update() or draw() method.
 
 Preparation
 ===========
